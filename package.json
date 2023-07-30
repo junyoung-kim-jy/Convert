@@ -1,0 +1,22 @@
+{
+  "name": "cm-converter",
+  "version": "1.0.0",
+  "description": "[cm-converter] makes dev-env configmaps suitable for other environments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://seongryong.ryu@dev.azure.com/Security365/Security365_Deploy/_git/cm-converter"
+  },
+  "author": "seongryong.ryu@softcamp.co.kr",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "diff": "^5.1.0",
+    "directory-tree": "^3.5.1",
+    "yaml": "^2.1.3"
+  }
+}
